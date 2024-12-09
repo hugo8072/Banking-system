@@ -1,10 +1,9 @@
 % Define facts about clients
 
 % Consult the updatesTransactions.pl file
-:- consult('/home/hugo_mls/teste/src/updatesTransactions.pl').
-% Consult the credit.pl file
-:- consult('/home/hugo_mls/teste/src/credit.pl').
-:- consult('/home/hugo_mls/teste/src/update_balance_plus_credit.pl').
+:- consult('updatesTransactions.pl').
+:- consult('credit.pl').
+:- consult('update_balance_plus_credit.pl').
 
 
 % Predicate to save a transaction to a file

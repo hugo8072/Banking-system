@@ -1,7 +1,19 @@
-﻿On both operative systems:
+On both operative systems:
 1-Ensure that you have both the JDK (Java Development Kit) and Prolog installed on your system.
 
-2-
+2-On the App.java file and test.pl file make sure to change the paths in order to acess to the pl files
+while using the program. (9 changes in total).
+Example:
+Query q1 = new Query("consult", new Term[]{new Atom("/home/hugo_mls/teste/src/test.pl")});
+In my case this is the path where I have the files. In yours is gonna be different.
+
+Change the path "/home/hugo_mls/teste/src/test.pl" to the path where you have your files.
+
+or 
+
+:- consult('/home/hugo_mls/teste/src/update_balance_plus_credit.pl').
+Change the path "'/home/hugo_mls/teste/src/update_balance_plus_credit.pl'" to the path where you have your files.
+
 On windows:
 
 1-Open the Windows command prompt. Press Win + R, type "cmd," and press Enter.
