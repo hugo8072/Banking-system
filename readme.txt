@@ -1,4 +1,5 @@
-﻿On both operative systems:
+﻿
+On both operative systems:
 1-Ensure that you have both the JDK (Java Development Kit) and Prolog installed on your system.
 
 2-
