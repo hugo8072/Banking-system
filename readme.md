@@ -1,9 +1,10 @@
-﻿
-On both operative systems:
-1-Ensure that you have both the JDK (Java Development Kit) and Prolog installed on your system.
 
-2-
-On windows:
+## On both operative systems: 🌐
+-Ensure that you have both the JDK (Java Development Kit) and Prolog installed on your system.
+
+
+
+### On Windows: 🖥️💻
 
 1-Open the Windows command prompt. Press Win + R, type "cmd," and press Enter.
 Navigate to the directory where your files are located using the cd command. 
@@ -26,7 +27,7 @@ swipl -s update_balance_plus_credit.pl -g true -t halt
 java -cp .;path/to/prolog.jar App
 
 
-On Linux:
+### On Linux: 🐧
 
 1-Open the terminal on your Linux system.
 Navigate to the directory where your files are located using the cd command. 
@@ -47,7 +48,6 @@ swipl -s update_balance_plus_credit.pl -g true -t halt
  Make sure to include the path to the Prolog JAR file (if necessary) using the -cp option:
 java -cp .;path/to/prolog.jar App
 
-Thanks for reading. Have a great day!
-
+Thanks for reading. Have a great day! 🌟
 
 
