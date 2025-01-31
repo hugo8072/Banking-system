@@ -17,10 +17,15 @@ This will compile the Java file and generate an "App.class" file in the same dir
 
 3-Compile the Prolog files using the specific Prolog compiler you are using. For example, if you 
 are using SWI-Prolog, you can use the swipl command along with the Prolog file:
+
 swipl -s test.pl -g true -t halt
+
 swipl -s credit.pl -g true -t halt
+
 swipl -s udpatesTransactions.pl -g true -t halt
+
 swipl -s update_balance_plus_credit.pl -g true -t halt
+
 
 4-After compiling the Java and Prolog files, you can execute the Java program using the java command.
  Make sure to include the path to the Prolog JAR file (if necessary) using the -cp option:
@@ -40,11 +45,14 @@ javac App.java
 3-Compile the Prolog files using the specific Prolog compiler you are using. For example, if you 
 are using SWI-Prolog, you can use the swipl command along with the Prolog file:
 swipl -s test.pl -g true -t halt
+
 swipl -s credit.pl -g true -t halt
+
 swipl -s udpatesTransactions.pl -g true -t halt
+
 swipl -s update_balance_plus_credit.pl -g true -t halt
 
-4-4-After compiling the Java and Prolog files, you can execute the Java program using the java command.
+4-After compiling the Java and Prolog files, you can execute the Java program using the java command.
  Make sure to include the path to the Prolog JAR file (if necessary) using the -cp option:
 java -cp .;path/to/prolog.jar App
 
